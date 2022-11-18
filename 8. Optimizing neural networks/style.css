@@ -19,6 +19,7 @@ button{
     margin: 2px;
     cursor:pointer;
 }
+
 button:hover{
     background:blue;
 }
@@ -26,6 +27,7 @@ button:hover{
 #networkCanvas{
     background:black;
 }
+
 #carCanvas{
     background:lightgray;
 }
