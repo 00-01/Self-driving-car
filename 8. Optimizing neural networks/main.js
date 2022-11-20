@@ -60,7 +60,8 @@ function animate(time){
     bestCar=cars.find(
         c=>c.y==Math.min(
             ...cars.map(c=>c.y)
-        ));
+        )
+    );
 
     carCanvas.height=window.innerHeight;
     networkCanvas.height=window.innerHeight;
